@@ -43,10 +43,6 @@ export default class extends React.Component {
                 <Followers />
                 </div> 
                              
-           
-          
-        
-
           </div>
         )
       }             
