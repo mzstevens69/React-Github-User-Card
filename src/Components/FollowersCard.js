@@ -6,6 +6,7 @@ const FollowersCard = (props) => {
         <div>
             <img src={props.image} alt='user'/>
             <h2>Name: {props.name} </h2>
+    
             
         </div>
     )

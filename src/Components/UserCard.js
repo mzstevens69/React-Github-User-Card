@@ -12,11 +12,7 @@ const UserCard = props =>
                 <div>Followers: {props.users.followers} </div>
                 <div>Following: {props.users.following} </div>
                 <div>{props.users.bio} </div>
-           
-             
-                
-                       
-         
+
         </div>
 
 export default UserCard;

@@ -31,17 +31,14 @@ export default class extends React.Component {
 
         return (
           <div className='container' >
-            <div className='header'>
-              <img src='./lambdalogo.png' alt='Lamda Logo'/>
-              <p>❤️'s</p>
-              <img src="./githublogo.png" alt="GitHub Logo" />
+            <div className='header'> 
+              <h1>Git Hub usercards</h1>             
             </div>
-             <div className='card'>
+              <div className='card'>
               <UserCard users={this.state.users}/>
-              </div>
-              <div>
-                <Followers />
-                </div> 
+              </div>             
+              <Followers />
+                 
                              
           </div>
         )

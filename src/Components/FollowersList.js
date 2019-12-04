@@ -25,18 +25,20 @@ class Followers extends React.Component {
     return (
         <div>
             {this.state.followers.map(follower => ( 
+              <div className='card'>
                 <FollowersCard 
                     key={follower.id}
                     image={follower.avatar_url}
                     name={follower.login}
                     location={follower.location}
-                    followers={follower.follower}
+                    followers={follower.follower_url}
                     following={follower.following}
                     bio={follower.bio}
                     />
+              </div> 
             ))}
              
-                       
+                      
          
         </div>
     )
